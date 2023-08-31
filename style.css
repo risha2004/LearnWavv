@@ -129,7 +129,7 @@ h6{
 /* home */
 #home{
     background-color:rgb(230, 228, 236);
-    background-image: url('../img/bg5.png');
+    background-image: url('img/bg5.png');
      background-size: 727px;
 
      background-repeat: no-repeat;
@@ -410,7 +410,7 @@ flex-direction: column;
      /* about */
      #about{
         background-color:rgb(230, 228, 236);
-        background-image: url('../img/uuu.png');
+        background-image: url('img/uuu.png');
         background-size: 600px;
         background-repeat: no-repeat;
          background-position:top right;
