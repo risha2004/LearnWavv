@@ -129,14 +129,14 @@ h6{
 /* home */
 #home{
     background-color:rgb(230, 228, 236);
-    background-image: url('img/bg5.png');
-     background-size: 727px;
+    background-image: url('../img/bg5.png');
+     background-size: 756px;
 
      background-repeat: no-repeat;
      background-position:top right;
     display:flex;
     flex-direction:column;
-    padding: 125px 726px 171px 2px;
+    padding: 130px 757px 202px 7px;
     height: 186%;
     width: 103%;
     justify-content:center;
@@ -228,7 +228,7 @@ h6{
  }
 /* courses */
 #courses {
-    padding: 2vw 0vw 3vw 0vw;
+    padding: 3vw 0vw 3vw 0vw;
   text-align: center;
   height: 1027px;
   
@@ -246,6 +246,7 @@ h6{
     height: 3px;
     left: 10px;
     }
+
  
 #courses .courses{
     text-align: start;
@@ -276,14 +277,14 @@ h6{
     text-align: center;
     border-radius: 50%;
     position:relative;
-    left: 236px;
-    bottom: 120px;
+    left: 276px;
+    bottom: 114px;
     
   }  
   
  /* clients section */
  #client-section{
-   height: 351px;
+   height: 280px;
    padding: -4px 18px 29px 16px;
    width: 111%;
   
@@ -298,7 +299,6 @@ h6{
      #client-section::before{
         content: "";
         position: absolute;
-        background: linear-gradient(to left top, #313866,#edf0e7);
         z-index: -1;
         opacity: 0.35;
         width: 100%;
@@ -320,6 +320,77 @@ h6{
       
      }
 
+   /* boxes */
+.wrappers{
+   margin: 88px 0px -47px 3px;
+   padding: 0 10%;
+   padding-bottom: 128px;
+   text-transform: capitalize;
+   background:rgb(230, 228, 236);
+   height: 100%;
+
+}
+.wrappers h1{
+ padding-bottom: 230px;
+ top: 108px;
+}
+
+.container{
+   display: grid;
+   gap:15px;
+grid-template-columns: repeat(3,1fr);
+}
+.box{
+   height: 600px;
+   width: 344px;
+   padding: 20px;
+   text-align: center;
+   flex-direction: row;
+   border-radius: 5px;
+   background:#c9c2e8;
+   
+   box-shadow:0 5px 10px rgba(0,0,0,0.2); 
+
+}
+.box h3{
+   color: black;
+   padding: 10px 0;
+   font-size: 30px;
+}
+.box h2{
+   color:#69665c;
+   padding: 20px 0;
+   font-size: 50px;
+}
+.box p{
+   color:#2f2e2e;
+   font-size: 18px;
+   line-height: 2.6;
+}
+
+.btns{
+   color: #fff;
+   border: none;
+   outline: none;
+   font-size: 17px;
+   margin-top: 78px;
+   padding: 8px 15px;
+   background: #69665c;
+   border-radius: 5px;
+   display: inline-block;
+   text-decoration: none;
+
+}
+.btns:hover {
+   letter-spacing: 1px;
+}
+
+.box:hover{
+   transform: scale(1.03);
+   box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+}
+
+/* experts */
      #he h1{
       top:120px;
      }
@@ -410,7 +481,7 @@ flex-direction: column;
      /* about */
      #about{
         background-color:rgb(230, 228, 236);
-        background-image: url('img/uuu.png');
+        background-image: url('../img/uuu.png');
         background-size: 600px;
         background-repeat: no-repeat;
          background-position:top right;
